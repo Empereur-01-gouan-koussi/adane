@@ -1,0 +1,104 @@
+@media screen and (max-width: 800px) and (min-width: 600px) {
+  main {
+    padding: 5%;
+    background-color: rgb(206, 31, 31);
+  }
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+body {
+  padding: 10%;
+  background-color: rgb(36, 35, 35);
+  margin: 10px;
+  color: white;
+}
+/* debut de l'entête*/
+.parent-1 {
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 60px;
+}
+.enf-web {
+  font-size: 40px;
+}
+.enf-crea {
+  font-size: 20px;
+}
+.enf-base {
+  font-size: 20px;
+}
+.enf-email {
+  font-size: 20px;
+}
+/* fin de l'entête*/
+.parent-2 {
+  display: flex;
+  grid-template-columns: repeat(3 1Fr);
+  width: 100%;
+  margin-bottom: 60px;
+}
+.enfant1 {
+  display: grid;
+  grid-template-rows: repeat(3 1Fr);
+}
+.junior1 {
+  position: relative;
+}
+.junior2 {
+  position: relative;
+}
+.junior3 {
+  position: relative;
+}
+img {
+  width: 100%;
+}
+.enfant2 {
+  display: grid;
+  grid-template-rows: repeat(3 1fr);
+  position: relative;
+}
+.jun1 {
+  position: relative;
+}
+.jun2 {
+  position: relative;
+}
+.jun3 {
+  position: relative;
+}
+.enfant3 {
+  display: grid;
+  grid-template-rows: repeat(3 1fr);
+  position: relative;
+}
+.ju1 {
+  position: relative;
+}
+.ju2 {
+  position: relative;
+}
+.ju3 {
+}
+#text {
+  color: white;
+  font-size: 15px;
+  font-style: normal;
+  background-color: rgb(63, 56, 48);
+  padding: 5px;
+  bottom: 5px;
+}
+/* fin du corp de la page */
+
+/* debut du pied de page */
+.parent3 {
+  color: white;
+  text-align: center;
+}
+.icon {
+  margin-bottom: 10px;
+}
+
+/* fin du pied de page */
